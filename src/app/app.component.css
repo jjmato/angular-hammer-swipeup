@@ -5,8 +5,14 @@ p {
 .swipeable{
   border: 3px solid tomato;
   border-radius: 3px;
-  width: 6rem;
-  height: 6rem;
+  width: 20rem;
+  height: 20rem;
   margin: 0 auto;
   background: orange;
+}
+
+.swipeable ul {
+  overflow-y: auto;
+  border: solid 1px green;
+  height: 10rem;
 }
