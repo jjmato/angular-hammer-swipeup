@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
+  event;
 
   log($event){
+    this.event = $event;
     console.log('ariiiiiiiibisima: ', $event)
   }
 }

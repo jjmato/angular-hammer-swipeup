@@ -16,3 +16,10 @@ p {
   border: solid 1px green;
   height: 10rem;
 }
+
+pre {
+  border: 3px dashed darkcyan;
+  border-radius: 3px;
+  color: darkgreen;
+  background: lightgreen;
+}
